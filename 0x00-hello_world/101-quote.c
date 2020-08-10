@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int status = system("echo -n 'and that piece of art is useful\" - Dora\
+	system("echo -n 'and that piece of art is useful\" - Dora\
 Korpar, 2015-10-19\n' 1>&2");
-	return (status);
+	return (1);
 }
