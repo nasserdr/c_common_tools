@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	int status = system("echo 'and that piece of art is useful\" - Dora Korpar, 2015-10-19' 2>&1");
+	int status = system("echo -n 'and that piece of art is useful\" - Dora Korpar, 2015-10-19\n' 1>&2");
 	return(status);
 }
