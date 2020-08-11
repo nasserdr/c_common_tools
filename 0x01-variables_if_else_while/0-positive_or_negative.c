@@ -2,11 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *Description: generates a random number 
- * and prints positive or negative or zero
- * on the screen accordingly.
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+
 
 int main(void)
 {
@@ -15,11 +16,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%s", "is positive\n");
+		printf("%d %s", n, "is positive\n");
 	else if (n < 0)
-		printf("is negative\n");
+		printf("%d %s", n, "is negative\n");
 	else
-		printf("is zero\n");
+		printf("%d %s", n, "is zero\n");
 
 	return (0);
 }
