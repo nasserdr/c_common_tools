@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _print_last_digit - compute the absolute value of a number
+ * print_last_digit - compute the absolute value of a number
  *
  * @c: input character
  *
@@ -9,7 +9,12 @@
  * The last digit of the number
  */
 
-int _print_last_digit(int c)
+int print_last_digit(int c)
 {
-	return (c % 10);
+	int r;
+
+	if (c < 0) c *= -1;
+	r = c % 10;
+	_putchar(r+'0');
+	return r;
 }
