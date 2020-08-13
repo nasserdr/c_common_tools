@@ -1,5 +1,6 @@
 #include <ctype.h>
 #include "holberton.h"
+
 /**
  * _islower - Checks whether the argument is lower case
  *
