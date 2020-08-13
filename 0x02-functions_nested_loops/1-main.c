@@ -1,12 +1,13 @@
 #include "holberton.h"
 
-void print_alphabet(void)
-{
-        char a;
+/**
+ * main - Entry point, prints "Holberton with a new line"
+ *
+ * Return: Always 0 (Success)
+ */
 
-        for ( a = 'a'; a <= 'z'; a++)
-        {
-                _putchar(a);
-        }
-	_putchar('\n');
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
