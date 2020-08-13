@@ -1,14 +1,21 @@
-0x00-hello_world  
+0x02-functions_nested_loops
 **Author: Hassan Nasser**
 
 **Description:**
-This folder contains five files 6 mandatory files concerning the hello world project:  
+This folder contains the exercises of the 0x02-functions_nested_loops:  
 
-The list of project is:  
-**0-preprocessor**: a script that runs a C file through the preprocessor and save the result into another file.  
-**1-compiler**: a script that compiles a C file but does not link.  
-**2-assembler**: a script that generates the assembly code of a C code and save it in an output file.  
-**3-name**: a script that compiles a C file and creates an executable named cisfun.  
-**4-puts.c**: a C program that prints exactly "Programming is like building a multilingual puzzle.  
-**5-printf.c**: a C program that prints exactly with proper grammar, but the outcome is a piece of art.  
-**6-size.c**: a C program that prints the size of various types on the computer it is compiled and run on.  
+The list of files is:  
+**0-holberton.c**: a program that prints Holberton.  
+**1-alphabet.c**: a function that prints the alphabet, in lowercase.  
+**2-print_alphabet_x10.c**: a function that prints 10 times the alphabet, \
+in lowercase.  
+**3-islower.c**: a function that checks for lowercase character.  
+**4-isalpha.c**: a function that checks for alphabetic character.  
+**5-sign.c**:  a function that prints the sign of a number.  
+**6-abs.c**: a function that computes the absolute value of an integer.  
+**7-print_last_digit.c**: a function that prints the last digit of a number.  
+**8-24_hours.c**: a function that prints every minute of the day of Jack Bauer\
+, starting from 00:00 to 23:59.  
+**9-times_table.c**: a function that prints the 9 times table, starting with 0.  
+**10-add.c**: a function that adds two integers and returns the result.  
+**11-print_to_98.c**: a function that prints all natural numbers from n to 98.  
