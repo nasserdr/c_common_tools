@@ -9,10 +9,15 @@
 void jack_bauer(void)
 {
 
-	int i, j, k, l;
+	int i, j, k, l, maxminutes;
 
 	for (i = 0; i <= 2; i++)
-		for (j = 0; j <= 3; j++)
+	{
+		if (i != 2)
+			maxminutes = 9;
+		else
+			maxminutes = 3;
+		for (j = 0; j <= maxminutes; j++)
 			for (k = 0; k <= 5; k++)
 				for (l = 0; l <= 9; l++)
 				{
@@ -23,4 +28,5 @@ void jack_bauer(void)
 					_putchar(l + '0');
 					_putchar('\n');
 				}
+	}
 }
