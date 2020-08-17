@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - Update the value of the pointer to 98
  *
- * @*n: Pointer to an integer
+ * @n: Pointer to an integer
  *
  * Return: Nothing
  */
