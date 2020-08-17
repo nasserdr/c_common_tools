@@ -13,14 +13,11 @@ void puts2(char *s)
 {
 	int n;
 
-  	n = 0;
-
+	n = 0;
 	while (*(s + n) != '\0')
 	{
-		if ( (n % 2) == 0)
-		{
-		_putchar(*(s + n));
-		}
+		if ((n % 2) == 0)
+			_putchar(*(s + n));
 		n++;
 
 	}
