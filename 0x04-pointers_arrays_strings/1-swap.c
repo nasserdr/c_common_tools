@@ -1,5 +1,5 @@
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * swap_int - Swap 2 integers
  *
@@ -11,9 +11,10 @@
 
 void swap_int(int *a, int *b)
 {
-	int *tmp;
+	int tmp1, tmp2;
 
-	tmp = a;
-	a = b;
-	b = tmp;
+	tmp1 = *a;
+	tmp2 = *b;
+	*b = tmp1;
+	*a = tmp2;
 }
