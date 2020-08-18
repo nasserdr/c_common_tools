@@ -2,24 +2,31 @@
 #include <stdio.h>
 
 /**
- * _strcpy -  Copies the string src into the string dest
+ * _strcat -  Concatenates the src string after the dest string
  *
  * @src: the source string
  * @dest: The destination string
  *
- * Return: Nothing
+ * Return: the destination string dest
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
-	int i;
+	int i, n;
 
+	i = 0;
+	while (*(dest + i) != '\0')
+	{
+		i++;
+	}
+
+	n = i;
 	i = 0;
 	while (*(src + i) != '\0')
 	{
-		dest[i] = *(src + i);
+		dest[n + i] = src[i];
 		i++;
 	}
-	dest[i] = '\0';
+	dest[n + i] = '\0';
 	return (dest);
 }
