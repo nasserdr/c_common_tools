@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-#include <ctype.h>
 
 /**
  * leet - Encode a string into 1337
