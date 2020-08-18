@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * leet - Encode a string into 1337
@@ -21,7 +22,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (*(s + i) == a[j])
+			if (*(s + i) == a[j] || tolower(*(s + i)) == a[j])
 			{
 				*(s + i) = t[j];
 			}
