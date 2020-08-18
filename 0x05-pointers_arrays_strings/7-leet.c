@@ -13,7 +13,7 @@
 char *leet(char *s)
 {
 	int i, j;
-	char a[] = "aoetl";
+	char a[] = "aeotl";
 	char t[] = "43071";
 
 	i = 0;
