@@ -24,7 +24,8 @@ char *_strncat(char *dest, char *src, int n)
 	len = i;
 	i = 0;
 	n_copied = 0;
-	while (*(src + i) != '\0' && n_copied <= n)
+
+	while (*(src + i) != '\0' && n_copied < n)
 	{
 		dest[len + i] = src[i];
 		i++;
